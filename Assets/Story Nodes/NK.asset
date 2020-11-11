@@ -15,8 +15,6 @@ MonoBehaviour:
   text: You pull a poison needle out of the tree
   choices:
   - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
-  - iconRef: 2
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 8f76a611dae971fca8ae39556babf2d3, type: 2}
+  - iconRef: 3
+    nextNode: {fileID: 11400000, guid: 219a70bdd1649add5abff04eb1ad76e9, type: 2}

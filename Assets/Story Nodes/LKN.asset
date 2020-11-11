@@ -15,8 +15,4 @@ MonoBehaviour:
   text: You use the knife to sharpen a wooden lance
   choices:
   - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
-  - iconRef: 2
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: f808b2f1a2e4edd63b61f2bc5b8ef66c, type: 2}

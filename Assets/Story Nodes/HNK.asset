@@ -14,7 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: She cuts them to fit in the vase
   choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
+  - iconRef: 3
+    nextNode: {fileID: 11400000, guid: 247442928c67ca63e96e2e142250aa7f, type: 2}

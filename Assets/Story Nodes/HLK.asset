@@ -14,7 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: She pulls our a knife
   choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
   - iconRef: 1
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 654fe7e789b21cc6eaf8ec5aa45b2e9e, type: 2}

@@ -14,9 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: She kills herself in front of the tree
   choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
-  - iconRef: 2
-    nextNode: {fileID: 0}
+  - iconRef: 3
+    nextNode: {fileID: 11400000, guid: f26a53f236402ddbabf2324f979375b9, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: You tell her that you love your brother
   choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
+  - iconRef: 2
+    nextNode: {fileID: 11400000, guid: 9f516883ec9fdb7f088345371c7315b8, type: 2}
+  - iconRef: 2
+    nextNode: {fileID: 11400000, guid: ca715eb130b6a3d6d8ff5f446d2db859, type: 2}

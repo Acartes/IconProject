@@ -13,8 +13,4 @@ MonoBehaviour:
   m_Name: HLNK
   m_EditorClassIdentifier: 
   text: She throws the flower pot at you
-  choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
+  choices: []

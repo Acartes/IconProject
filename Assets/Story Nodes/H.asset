@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: You mum looks at you
   choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
   - iconRef: 1
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: e21e2a462bd71ad1d920f131c331b385, type: 2}
   - iconRef: 2
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 3897b16390c7e123a8366c653d5a4e30, type: 2}
+  - iconRef: 3
+    nextNode: {fileID: 11400000, guid: ba139cfeaa194f9b6a4d08c67d733244, type: 2}

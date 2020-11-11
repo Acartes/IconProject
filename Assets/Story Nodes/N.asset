@@ -15,8 +15,8 @@ MonoBehaviour:
   text: You spot a tree in the distance
   choices:
   - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 50814027d891b6e9db4a31f7295899a9, type: 2}
+  - iconRef: 3
+    nextNode: {fileID: 11400000, guid: b39ffa960858f08468ae6a16416a52a7, type: 2}
   - iconRef: 2
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: b4a910bbde0557ce996a6a7fff303e9b, type: 2}

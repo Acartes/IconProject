@@ -15,8 +15,6 @@ MonoBehaviour:
   text: You climb up a tree to increase your vision
   choices:
   - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 1a3fd9d2de673789082ee52b81e63b5c, type: 2}
   - iconRef: 2
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 1bf7b33d3b7d78761b75ec10236305c5, type: 2}

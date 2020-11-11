@@ -13,10 +13,4 @@ MonoBehaviour:
   m_Name: NKL
   m_EditorClassIdentifier: 
   text: You french kiss  the needle and die from poisoning
-  choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
-  - iconRef: 2
-    nextNode: {fileID: 0}
+  choices: []

@@ -14,9 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: You see someone very attractive
   choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
   - iconRef: 2
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 0ae5139ca2fa243cf80a5f2b0ec75fd6, type: 2}
+  - iconRef: 1
+    nextNode: {fileID: 11400000, guid: 2c235645d89457ef1a1600e19ad5b710, type: 2}

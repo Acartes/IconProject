@@ -14,9 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: The tree turns into a human
   choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
-  - iconRef: 2
-    nextNode: {fileID: 0}
+  - iconRef: 3
+    nextNode: {fileID: 11400000, guid: 9aec0fa6d6c5825e08f339af821a2ba5, type: 2}

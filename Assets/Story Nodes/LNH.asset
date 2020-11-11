@@ -14,9 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: There is already someone in the tree
   choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
   - iconRef: 2
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: b1a4bf730abd21ead80bea7d310bc859, type: 2}

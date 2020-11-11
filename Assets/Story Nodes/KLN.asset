@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c24fffa1df84f24bb0bc4cbb5447e2f, type: 3}
-  m_Name: L
+  m_Name: KLN
   m_EditorClassIdentifier: 
-  text: You're looking for love
+  text: There is no love for bad people
   choices:
   - iconRef: 0
-    nextNode: {fileID: 11400000, guid: 482db57e907de27c5ac2c6f8e691465b, type: 2}
-  - iconRef: 2
-    nextNode: {fileID: 11400000, guid: 2bb03260d7aabce9386eafa1a34a445d, type: 2}
+    nextNode: {fileID: 11400000, guid: cf4ea74417c297e32a62b3afd70c7fc0, type: 2}
   - iconRef: 1
-    nextNode: {fileID: 11400000, guid: 913e4c1eacb120679b8d85262cfb2345, type: 2}
+    nextNode: {fileID: 0}

@@ -13,8 +13,4 @@ MonoBehaviour:
   m_Name: HKNL
   m_EditorClassIdentifier: 
   text: She gives the apple to you
-  choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
+  choices: []

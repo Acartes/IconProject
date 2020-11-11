@@ -15,8 +15,6 @@ MonoBehaviour:
   text: You start to stab a tree
   choices:
   - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
-  - iconRef: 2
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 879d66889e98e2e89bfc6b19bcf9e779, type: 2}
+  - iconRef: 3
+    nextNode: {fileID: 11400000, guid: a84ef73e7d8afd1b6a4c13c25df0c0f7, type: 2}

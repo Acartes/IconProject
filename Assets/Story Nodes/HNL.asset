@@ -14,7 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: She tells you that she is your father
   choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
+  - iconRef: 2
+    nextNode: {fileID: 11400000, guid: 6fef094357d11c68f924c47fcab1b740, type: 2}

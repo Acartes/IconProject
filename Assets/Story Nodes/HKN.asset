@@ -14,7 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: To cut some apples
   choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
+  - iconRef: 3
+    nextNode: {fileID: 11400000, guid: 68edf6a4c8adfb8f1bca1927708c4c09, type: 2}

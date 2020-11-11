@@ -14,7 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: She gives you the knife
   choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
   - iconRef: 1
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000}

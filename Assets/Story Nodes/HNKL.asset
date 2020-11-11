@@ -13,8 +13,4 @@ MonoBehaviour:
   m_Name: HNKL
   m_EditorClassIdentifier: 
   text: She thanks you
-  choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
+  choices: []

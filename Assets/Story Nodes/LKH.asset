@@ -15,8 +15,4 @@ MonoBehaviour:
   text: Someone wants to steal your knife
   choices:
   - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
-  - iconRef: 2
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: b0e58797fb4c3348c9dfeda717438ce1, type: 2}

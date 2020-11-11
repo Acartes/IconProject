@@ -14,9 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: You offer them flower
   choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
   - iconRef: 2
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: b20f6038fca078873b068afb578f54a5, type: 2}

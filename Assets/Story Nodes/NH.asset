@@ -14,9 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: A women approaches the tree
   choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
   - iconRef: 2
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: c6fe42dd884835bd3bcb44cff035697f, type: 2}
+  - iconRef: 3
+    nextNode: {fileID: 11400000, guid: 93b73c00ff1ea61a798439d9d56672b2, type: 2}

@@ -14,9 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: A junkie approaches you
   choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
-  - iconRef: 2
-    nextNode: {fileID: 0}
+  - iconRef: 3
+    nextNode: {fileID: 11400000, guid: 62bb2dc65787e3aaca0c2df01fa2f5be, type: 2}

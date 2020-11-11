@@ -473,7 +473,7 @@ PrefabInstance:
     - target: {fileID: 3696358192693690240, guid: cbb7144b64df4141bb489fcb2aa03ab7,
         type: 3}
       propertyPath: choice
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3741152708240509184, guid: cbb7144b64df4141bb489fcb2aa03ab7,
         type: 3}
@@ -738,7 +738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d564522d5a4bc0da6a9eed3300a72a13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  storyNode: {fileID: 11400000, guid: 92c5d4c3824145aa3b369231c762226f, type: 2}
+  storyNode: {fileID: 0}
   storyUnitPrefab: {fileID: 6473066326956027704, guid: 1b47e8b2b6bb15cabaa26db2806ba41d,
     type: 3}
   historyIconPrefab: {fileID: 6978247088452378017, guid: f3b18cb4c7bbf05afa3734e81d6e1caa,
@@ -1210,7 +1210,7 @@ PrefabInstance:
     - target: {fileID: 3696358192693690240, guid: cbb7144b64df4141bb489fcb2aa03ab7,
         type: 3}
       propertyPath: choice
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3741152708240509184, guid: cbb7144b64df4141bb489fcb2aa03ab7,
         type: 3}
@@ -1668,7 +1668,7 @@ PrefabInstance:
     - target: {fileID: 3696358192693690240, guid: cbb7144b64df4141bb489fcb2aa03ab7,
         type: 3}
       propertyPath: choice
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3741152708240509184, guid: cbb7144b64df4141bb489fcb2aa03ab7,
         type: 3}
@@ -2630,6 +2630,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3696358192693690240, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+        type: 3}
+      propertyPath: choice
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4001676165596255941, guid: cbb7144b64df4141bb489fcb2aa03ab7,
         type: 3}

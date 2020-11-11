@@ -14,7 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: She vomits into the flower pot
   choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
+  - iconRef: 2
+    nextNode: {fileID: 11400000, guid: 8fa6fab234807913fbd6befb19c735dd, type: 2}

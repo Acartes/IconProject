@@ -16,7 +16,7 @@ public class StoryCreator : MonoBehaviour
     void Start()
     {
         Instance = this;
-        DisplayCurrentStory(Color.white);
+        //DisplayCurrentStory(Color.white);
     }
 
     public void IconChosen(Icon choice, Color choiceColor)

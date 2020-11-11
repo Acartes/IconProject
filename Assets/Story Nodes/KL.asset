@@ -15,8 +15,6 @@ MonoBehaviour:
   text: There is no love for bad people
   choices:
   - iconRef: 0
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: cf4ea74417c297e32a62b3afd70c7fc0, type: 2}
   - iconRef: 1
-    nextNode: {fileID: 0}
-  - iconRef: 2
     nextNode: {fileID: 0}

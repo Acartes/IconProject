@@ -15,8 +15,6 @@ MonoBehaviour:
   text: You become one with the tree
   choices:
   - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 3c90f71a5ffb84025bcfdd59643bed53, type: 2}
   - iconRef: 2
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: fd65b8b777c336b8fa7cb83403923ca9, type: 2}

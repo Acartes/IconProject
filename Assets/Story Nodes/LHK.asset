@@ -14,9 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: You threaten them with a knife
   choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
   - iconRef: 1
-    nextNode: {fileID: 0}
-  - iconRef: 2
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 595ad80cc5a89601892d082a00933768, type: 2}

@@ -13,8 +13,4 @@ MonoBehaviour:
   m_Name: HKLN
   m_EditorClassIdentifier: 
   text: You stab the family dog
-  choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
+  choices: []

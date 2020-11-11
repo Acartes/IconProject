@@ -14,9 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: You see a man with a mustache
   choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
+  - iconRef: 3
+    nextNode: {fileID: 11400000, guid: d3e01670bf469145dbe1898d59d5c1ec, type: 2}
   - iconRef: 1
-    nextNode: {fileID: 0}
-  - iconRef: 2
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 8bbd2e6c1c9727c9b9430e46f777c1e1, type: 2}

@@ -13,10 +13,4 @@ MonoBehaviour:
   m_Name: NKHL
   m_EditorClassIdentifier: 
   text: You get stoned together with the needle
-  choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
-  - iconRef: 2
-    nextNode: {fileID: 0}
+  choices: []
