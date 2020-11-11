@@ -13,8 +13,4 @@ MonoBehaviour:
   m_Name: HNLK
   m_EditorClassIdentifier: 
   text: She cuts your right arm with a light saber
-  choices:
-  - iconRef: 0
-    nextNode: {fileID: 0}
-  - iconRef: 1
-    nextNode: {fileID: 0}
+  choices: []

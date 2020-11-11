@@ -18,5 +18,5 @@ MonoBehaviour:
     nextNode: {fileID: 11400000, guid: ded7069f68f6f87e09d2f2eca7da86b1, type: 2}
   - iconRef: 3
     nextNode: {fileID: 11400000, guid: 477bbb6784be3f7758c220e09abc8be7, type: 2}
-  - iconRef: 2
+  - iconRef: 1
     nextNode: {fileID: 11400000, guid: f9af795583576846eb8603f87d4ccc6a, type: 2}

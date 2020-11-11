@@ -15,4 +15,4 @@ MonoBehaviour:
   text: She gives you the knife
   choices:
   - iconRef: 1
-    nextNode: {fileID: 11400000}
+    nextNode: {fileID: 11400000, guid: 1437477402ac369f6b054a9562174fc0, type: 2}
