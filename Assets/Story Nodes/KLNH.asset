@@ -10,11 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c24fffa1df84f24bb0bc4cbb5447e2f, type: 3}
-  m_Name: HK
+  m_Name: KLNH
   m_EditorClassIdentifier: 
-  text: She pulls out a knife
-  choices:
-  - iconRef: 1
-    nextNode: {fileID: 11400000, guid: da18951d742e4fff18d307a64ccf1012, type: 2}
-  - iconRef: 3
-    nextNode: {fileID: 11400000, guid: a1e3ef17d57a70081bce0ca66b4faa74, type: 2}
+  text: And join a hippie community
+  choices: []

@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 6676783725607433065}
   - component: {fileID: 7949082862776347263}
   - component: {fileID: 3141076984410770255}
+  - component: {fileID: 5400564668515804263}
   m_Layer: 5
   m_Name: storyTextPrefab
   m_TagString: Untagged
@@ -295,6 +296,35 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   canvasGroup: {fileID: 7949082862776347263}
+--- !u!114 &5400564668515804263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179399044936543132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8107447c0e1d37e4dad5fe8e26b2df5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenOnStart: 0
+  startScale: {x: 0, y: 0, z: 0}
+  pauseScale: {x: 0.5, y: 0.5, z: 0.5}
+  targetScale: {x: 1, y: 1, z: 1}
+  duration: 0.5
+  randomDelay: 1
+  delay: 0.1
+  maxDelay: 0.3
+  curve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  onCompleteCallback:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1769319404990849996
 GameObject:
   m_ObjectHideFlags: 0

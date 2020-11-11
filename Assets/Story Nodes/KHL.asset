@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c24fffa1df84f24bb0bc4cbb5447e2f, type: 3}
   m_Name: KHL
   m_EditorClassIdentifier: 
-  text: You feel sorry for him and stab yourself
-  choices: []
+  text: You feel sorry for him
+  choices:
+  - iconRef: 1
+    nextNode: {fileID: 11400000, guid: 9db4805fcaaf4be49bd0409fd2f83188, type: 2}

@@ -266,6 +266,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8e93ae2b19c68c319d9a3e0da8e203b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &136855166 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4001676165596255941, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+    type: 3}
+  m_PrefabInstance: {fileID: 255190656}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d0caa864a23ef46b230df7e69ea6aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &150267993 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4001676165596255941, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+    type: 3}
+  m_PrefabInstance: {fileID: 2721984161955329954}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d0caa864a23ef46b230df7e69ea6aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &182440998
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,9 +646,9 @@ RectTransform:
   - {fileID: 1514268222}
   - {fileID: 493590086}
   - {fileID: 360315104}
-  - {fileID: 740720922}
   - {fileID: 321628819}
   - {fileID: 529976827}
+  - {fileID: 740720922}
   - {fileID: 1105101404}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -665,7 +689,7 @@ RectTransform:
   m_Children:
   - {fileID: 1434145072}
   m_Father: {fileID: 319147485}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -771,6 +795,53 @@ MonoBehaviour:
   - iconRef: 3
     nextNode: {fileID: 11400000, guid: 311720fa7b3fec1ff9474f856160a195, type: 2}
   restartButton: {fileID: 740720921}
+  doneEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 150267993}
+        m_MethodName: MoveToCenter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 839909452}
+        m_MethodName: MoveToCenter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 136855166}
+        m_MethodName: MoveToCenter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 502213916}
+        m_MethodName: MoveToCenter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &360315106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -952,6 +1023,18 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &502213916 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4001676165596255941, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+    type: 3}
+  m_PrefabInstance: {fileID: 675337541}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d0caa864a23ef46b230df7e69ea6aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,7 +1151,7 @@ RectTransform:
   - {fileID: 255190657}
   - {fileID: 675337542}
   m_Father: {fileID: 319147485}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.31029165, y: 0}
   m_AnchorMax: {x: 0.6907917, y: 0.1833695}
@@ -1261,9 +1344,69 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 4001676165596255941, guid: cbb7144b64df4141bb489fcb2aa03ab7,
         type: 3}
+      propertyPath: onCompleteCallback.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001676165596255941, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+        type: 3}
       propertyPath: center
       value: 
       objectReference: {fileID: 529976826}
+    - target: {fileID: 4001676165596255941, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+        type: 3}
+      propertyPath: onCompleteCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001676165596255941, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+        type: 3}
+      propertyPath: onCompleteCallback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001676165596255941, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+        type: 3}
+      propertyPath: onCompleteCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 740720926}
+    - target: {fileID: 4001676165596255941, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+        type: 3}
+      propertyPath: onCompleteCallback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Scale
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001676165596255941, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+        type: 3}
+      propertyPath: onCompleteCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5337920047109698328, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+        type: 3}
+      propertyPath: onCompleteCallback.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5337920047109698328, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+        type: 3}
+      propertyPath: onCompleteCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5337920047109698328, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+        type: 3}
+      propertyPath: onCompleteCallback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5337920047109698328, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+        type: 3}
+      propertyPath: onCompleteCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 740720926}
+    - target: {fileID: 5337920047109698328, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+        type: 3}
+      propertyPath: onCompleteCallback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Scale
+      objectReference: {fileID: 0}
+    - target: {fileID: 5337920047109698328, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+        type: 3}
+      propertyPath: onCompleteCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5522317642732581422, guid: cbb7144b64df4141bb489fcb2aa03ab7,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -1304,13 +1447,14 @@ GameObject:
   - component: {fileID: 740720925}
   - component: {fileID: 740720924}
   - component: {fileID: 740720923}
+  - component: {fileID: 740720926}
   m_Layer: 5
   m_Name: RestartButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &740720922
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1324,7 +1468,7 @@ RectTransform:
   m_Children:
   - {fileID: 798350083}
   m_Father: {fileID: 319147485}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.31029165, y: 0}
   m_AnchorMax: {x: 0.6907917, y: 0.1833695}
@@ -1422,6 +1566,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 740720921}
   m_CullTransparentMesh: 0
+--- !u!114 &740720926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740720921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8107447c0e1d37e4dad5fe8e26b2df5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenOnStart: 0
+  startScale: {x: 0, y: 0, z: 0}
+  pauseScale: {x: 0.5, y: 0.5, z: 0.5}
+  targetScale: {x: 1, y: 1, z: 1}
+  duration: 0.5
+  randomDelay: 0
+  delay: 0.3
+  maxDelay: 0.3
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.1447851
+      outSlope: 0.1447851
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.16289593
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 0
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  onCompleteCallback:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &762738354
 GameObject:
   m_ObjectHideFlags: 0
@@ -1777,6 +1968,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 837301510}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &839909452 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4001676165596255941, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+    type: 3}
+  m_PrefabInstance: {fileID: 837301510}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d0caa864a23ef46b230df7e69ea6aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &880314327 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3696358192693690240, guid: cbb7144b64df4141bb489fcb2aa03ab7,

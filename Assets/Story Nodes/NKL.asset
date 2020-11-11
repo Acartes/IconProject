@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: NKL
   m_EditorClassIdentifier: 
   text: You kiss  the needle and die
-  choices: []
+  choices:
+  - iconRef: 0
+    nextNode: {fileID: 11400000, guid: fe53640ef818cfb40a99f7905899fa1d, type: 2}

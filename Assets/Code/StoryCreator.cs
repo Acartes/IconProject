@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class StoryCreator : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class StoryCreator : MonoBehaviour
     public List<ChoiceNode> firstChoices = new List<ChoiceNode>();
 
     public GameObject restartButton;
+
+    public UnityEvent doneEvent;
 
     void Start()
     {
@@ -59,6 +62,7 @@ public class StoryCreator : MonoBehaviour
                 {
                     SendChoice.IconSelectable = false;
                     badges.CheckForBadge(item.nextNode);
+                    doneEvent.Invoke();
                     restartButton.SetActive(true);
                 }
                 break;
