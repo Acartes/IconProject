@@ -20,6 +20,7 @@ public class TweenAlpha : MonoBehaviour
     public CanvasGroup canvasGroup = default;
 
     private float n = 0;
+    private bool alphaToStart = false;
 
     void OnEnable()
     {
@@ -35,6 +36,19 @@ public class TweenAlpha : MonoBehaviour
             canvasGroup.alpha += curve.Evaluate(n / duration);
             n += Time.deltaTime;
         }
+        else
+        {
+            if (alphaToStart)
+            {
+                canvasGroup.alpha += curve.Evaluate(n / duration);
+                n -= Time.deltaTime;
+            }
+        }
         
+    }
+
+    public void AlphaTostart()
+    {
+        alphaToStart = true;
     }
 }
