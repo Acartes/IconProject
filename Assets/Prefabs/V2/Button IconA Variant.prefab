@@ -142,6 +142,16 @@ PrefabInstance:
       propertyPath: center
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5522317642732581422, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522317642732581422, guid: cbb7144b64df4141bb489fcb2aa03ab7,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 75
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9118143914007116202, guid: cbb7144b64df4141bb489fcb2aa03ab7, type: 3}
     - {fileID: 3696358192693690240, guid: cbb7144b64df4141bb489fcb2aa03ab7, type: 3}
