@@ -12,9 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c24fffa1df84f24bb0bc4cbb5447e2f, type: 3}
   m_Name: KLN
   m_EditorClassIdentifier: 
-  text: There is no love for bad people
-  choices:
-  - iconRef: 0
-    nextNode: {fileID: 11400000, guid: cf4ea74417c297e32a62b3afd70c7fc0, type: 2}
-  - iconRef: 1
-    nextNode: {fileID: 0}
+  text: But nature loves you anyways
+  choices: []

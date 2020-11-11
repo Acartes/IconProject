@@ -17,4 +17,4 @@ MonoBehaviour:
   - iconRef: 0
     nextNode: {fileID: 11400000, guid: cf4ea74417c297e32a62b3afd70c7fc0, type: 2}
   - iconRef: 1
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 67b81ca247e822b4dad485586a3f54f9, type: 2}

@@ -745,6 +745,15 @@ MonoBehaviour:
     type: 3}
   history: {fileID: 1250153714}
   badges: {fileID: 1105101405}
+  firstChoices:
+  - iconRef: 0
+    nextNode: {fileID: 11400000, guid: e89058749ad0887e4bfede7bf87e1667, type: 2}
+  - iconRef: 1
+    nextNode: {fileID: 11400000, guid: fba18f99eb115e5ad93b4d24932e55bc, type: 2}
+  - iconRef: 2
+    nextNode: {fileID: 11400000, guid: 962093feecea9b2e4ae6637fe82f7287, type: 2}
+  - iconRef: 3
+    nextNode: {fileID: 11400000, guid: 311720fa7b3fec1ff9474f856160a195, type: 2}
 --- !u!114 &360315106
 MonoBehaviour:
   m_ObjectHideFlags: 0
