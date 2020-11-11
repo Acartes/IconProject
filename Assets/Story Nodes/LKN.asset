@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c24fffa1df84f24bb0bc4cbb5447e2f, type: 3}
   m_Name: LKN
   m_EditorClassIdentifier: 
-  text: You use the knife to sharpen a wooden lance
+  text: You sharpen a wooden lance
   choices:
   - iconRef: 0
     nextNode: {fileID: 11400000, guid: f808b2f1a2e4edd63b61f2bc5b8ef66c, type: 2}

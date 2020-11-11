@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c24fffa1df84f24bb0bc4cbb5447e2f, type: 3}
   m_Name: NKL
   m_EditorClassIdentifier: 
-  text: You french kiss  the needle and die from poisoning
+  text: You kiss  the needle and die
   choices: []

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c24fffa1df84f24bb0bc4cbb5447e2f, type: 3}
   m_Name: LNH
   m_EditorClassIdentifier: 
-  text: There is already someone in the tree
+  text: There is someone on the tree
   choices:
   - iconRef: 2
     nextNode: {fileID: 11400000, guid: b1a4bf730abd21ead80bea7d310bc859, type: 2}
