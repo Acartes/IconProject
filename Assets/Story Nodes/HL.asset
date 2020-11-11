@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c24fffa1df84f24bb0bc4cbb5447e2f, type: 3}
   m_Name: HL
   m_EditorClassIdentifier: 
-  text: You tell her that you love your brother
+  text: You tell her you love your brother
   choices:
   - iconRef: 2
     nextNode: {fileID: 11400000, guid: 9f516883ec9fdb7f088345371c7315b8, type: 2}
