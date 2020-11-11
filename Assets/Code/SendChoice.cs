@@ -15,13 +15,14 @@ public class SendChoice : MonoBehaviour
     /// </summary>
     void Update()
     {
-        if(!IconSelectable){
+        if (!IconSelectable)
+        {
             GetComponent<Button>().interactable = false;
         }
     }
     public void applyChoice()
     {
-        StoryCreator.Instance.IconChosen(choice, choiceImg.color);
+        StoryCreator.Instance.IconChosen(choice, choiceImg);
         GetComponent<Button>().interactable = false;
 
         //do anim stuff
