@@ -50,7 +50,7 @@ public class TweenScale : MonoBehaviour
 
     public void ScaleToStart()
     {
-        LeanTween.scale(gameObject, startScale, duration).setDelay(delay).setOnComplete(OnComplete).setEase(curve);
+        LeanTween.scale(gameObject, startScale, duration).setDelay(delay);
     }
 
     public void ScaleToPause()

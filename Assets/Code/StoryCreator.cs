@@ -22,6 +22,8 @@ public class StoryCreator : MonoBehaviour
 
     public UnityEvent doneEvent;
 
+    public List<GameObject> buttons = new List<GameObject>();
+
     void Start()
     {
         Instance = this;
@@ -76,6 +78,7 @@ public class StoryCreator : MonoBehaviour
         obj.transform.GetComponentInChildren<TextMeshProUGUI>().text = storyNode.text;
         obj.transform.GetChild(1).GetChild(1).GetComponent<Image>().sprite = choiceImg.sprite;
         obj.transform.GetChild(1).GetChild(1).GetComponent<Image>().color = choiceImg.color;
+        buttons.Add(obj);
     }
 
     public void DisplayHistory(Color choiceColor)
@@ -86,7 +89,17 @@ public class StoryCreator : MonoBehaviour
     }
 
     public void RestartGame(){
+        foreach (var item in buttons)
+        {
+            item.GetComponent<TweenScale>().ScaleToStart();
+            item.GetComponent<TweenAlpha>().AlphaTostart();
+        }
+        Invoke("RestartScene", 0.6f);
+    }
+
+    void RestartScene(){
         SendChoice.IconSelectable = true;
         SceneManager.LoadScene(0);
+
     }
 }

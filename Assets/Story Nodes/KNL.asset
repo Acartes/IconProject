@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: You hug the tree
   choices:
-  - iconRef: 3
-    nextNode: {fileID: 11400000}
+  - iconRef: 0
+    nextNode: {fileID: 11400000, guid: 4da3ed532b7e430b982286f944c41514, type: 2}
