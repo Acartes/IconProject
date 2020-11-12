@@ -1570,7 +1570,7 @@ GameObject:
   - component: {fileID: 703768460}
   - component: {fileID: 703768462}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Tune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1585,7 +1585,8 @@ AudioSource:
   m_GameObject: {fileID: 703768459}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: ef6630441733378bb8e72d00c3f631d9,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 52845c159694bd0b088f9fa730fe8f6e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
