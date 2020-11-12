@@ -14,7 +14,7 @@ public class StoryCreator : MonoBehaviour
     public GameObject history;
 
     public static StoryCreator Instance;
-    public StoryBadge badges;
+    public MusicEndings musicEndings;
 
     public List<ChoiceNode> firstChoices = new List<ChoiceNode>();
 
@@ -23,6 +23,8 @@ public class StoryCreator : MonoBehaviour
     public UnityEvent doneEvent;
 
     public List<GameObject> buttons = new List<GameObject>();
+
+    public GameObject tuneObj;
 
     void Start()
     {
@@ -63,9 +65,10 @@ public class StoryCreator : MonoBehaviour
                 if (storyNode.choices.Count == 0)
                 {
                     SendChoice.IconSelectable = false;
-                    badges.CheckForBadge(item.nextNode);
+                    musicEndings.CheckForEnding(item.nextNode);
                     doneEvent.Invoke();
                     restartButton.SetActive(true);
+                    tuneObj.SetActive(false);
                 }
                 break;
             }
