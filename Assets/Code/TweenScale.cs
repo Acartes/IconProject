@@ -17,6 +17,8 @@ public class TweenScale : MonoBehaviour
     public float maxDelay = 0.3f;
 
     public AnimationCurve curve = default;
+    public AnimationCurve curve2 = default;
+
 
     [Header("Events")]
     public UnityEvent onCompleteCallback = default;
@@ -50,7 +52,7 @@ public class TweenScale : MonoBehaviour
 
     public void ScaleToStart()
     {
-        LeanTween.scale(gameObject, startScale, duration).setDelay(delay);
+        LeanTween.scale(gameObject, startScale, duration).setDelay(delay).setEase(curve2);
     }
 
     public void ScaleToPause()

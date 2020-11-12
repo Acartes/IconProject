@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: But someone wants to steal it
   choices:
-  - iconRef: 0
+  - iconRef: 1
     nextNode: {fileID: 11400000, guid: b0e58797fb4c3348c9dfeda717438ce1, type: 2}

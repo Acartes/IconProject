@@ -8,7 +8,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Linus_NewTestScene.unity
     guid: d80e42a40fb22d74d9ba9374c0561a88
-  - enabled: 1
-    path: Assets/Scenes/Linus_TestScene.unity
-    guid: 85d322051480c404d95822bbd16e915a
   m_configObjects: {}
