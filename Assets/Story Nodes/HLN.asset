@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c24fffa1df84f24bb0bc4cbb5447e2f, type: 3}
   m_Name: HLN
   m_EditorClassIdentifier: 
-  text: She vomits into the flower pot
+  text: She vomits into a flower pot
   choices:
   - iconRef: 2
     nextNode: {fileID: 11400000, guid: 8fa6fab234807913fbd6befb19c735dd, type: 2}

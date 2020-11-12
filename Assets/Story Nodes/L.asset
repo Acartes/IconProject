@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c24fffa1df84f24bb0bc4cbb5447e2f, type: 3}
   m_Name: L
   m_EditorClassIdentifier: 
-  text: You're looking for love
+  text: You are looking for love
   choices:
   - iconRef: 0
     nextNode: {fileID: 11400000, guid: 482db57e907de27c5ac2c6f8e691465b, type: 2}

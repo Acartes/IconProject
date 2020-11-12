@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c24fffa1df84f24bb0bc4cbb5447e2f, type: 3}
   m_Name: KNH
   m_EditorClassIdentifier: 
-  text: The tree turns into a human
+  text: But the tree turns into a human
   choices:
   - iconRef: 3
     nextNode: {fileID: 11400000, guid: 9aec0fa6d6c5825e08f339af821a2ba5, type: 2}

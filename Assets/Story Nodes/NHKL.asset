@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c24fffa1df84f24bb0bc4cbb5447e2f, type: 3}
   m_Name: NHKL
   m_EditorClassIdentifier: 
-  text: You bury yourself with her
+  text: And you bury yourself with her
   choices: []
