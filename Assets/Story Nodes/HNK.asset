@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c24fffa1df84f24bb0bc4cbb5447e2f, type: 3}
   m_Name: HNK
   m_EditorClassIdentifier: 
-  text: She cuts them to fit in the vase
+  text: She cuts them to fit in a vase
   choices:
   - iconRef: 3
     nextNode: {fileID: 11400000, guid: 247442928c67ca63e96e2e142250aa7f, type: 2}

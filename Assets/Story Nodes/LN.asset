@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c24fffa1df84f24bb0bc4cbb5447e2f, type: 3}
   m_Name: LN
   m_EditorClassIdentifier: 
-  text: You climb up a tree
+  text: And climb up a tree
   choices:
   - iconRef: 0
     nextNode: {fileID: 11400000, guid: 1a3fd9d2de673789082ee52b81e63b5c, type: 2}

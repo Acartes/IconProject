@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c24fffa1df84f24bb0bc4cbb5447e2f, type: 3}
   m_Name: LH
   m_EditorClassIdentifier: 
-  text: You see someone very attractive
+  text: And see someone very attractive
   choices:
   - iconRef: 2
     nextNode: {fileID: 11400000, guid: 0ae5139ca2fa243cf80a5f2b0ec75fd6, type: 2}

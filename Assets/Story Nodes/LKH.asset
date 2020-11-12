@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c24fffa1df84f24bb0bc4cbb5447e2f, type: 3}
   m_Name: LKH
   m_EditorClassIdentifier: 
-  text: Someone wants to steal your knife
+  text: But someone wants to steal it
   choices:
   - iconRef: 0
     nextNode: {fileID: 11400000, guid: b0e58797fb4c3348c9dfeda717438ce1, type: 2}
